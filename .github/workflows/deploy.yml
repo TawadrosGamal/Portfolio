@@ -28,11 +28,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22 # Upgraded past the Node 20 deprecation notice
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm install # Standard install that works even if package-lock.json is missing
 
       - name: Build Application
         run: npm run build
