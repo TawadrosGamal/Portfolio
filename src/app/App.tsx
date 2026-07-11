@@ -591,7 +591,7 @@ export default function App() {
               ))}
             </div>
 
-            <a href="/src/imports/Tawadros_Nemer_CV.pdf" download="Tawadros_Nemer_CV.pdf"
+            <a href="/Tawadros_Nemer_CV.pdf" download="Tawadros_Nemer_CV.pdf"
               className="inline-flex items-center gap-2 px-7 py-3 rounded-xl text-white font-semibold shadow hover:opacity-90 transition-opacity"
               style={{ background: `linear-gradient(135deg, ${P}, ${S})` }}>
               <Download size={16} /> Download CV
